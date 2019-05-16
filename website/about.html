@@ -1,0 +1,143 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta name ="author" content="your name"/>
+<link href="css/all.css" rel="stylesheet">
+ <link href="css/all.css" rel="stylesheet">
+ <script>
+   function display_c(){
+var refresh=1000; 
+mytime=setTimeout('display_ct()',refresh)
+}
+
+function display_ct() {
+var x = new Date()
+document.getElementById('ct').innerHTML = x;
+display_c();
+ }
+ </script>
+</head>
+<body >
+  <span id='ct'></span>
+  <div class="row"> 
+<div class="col-xl-12"> 
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+  <h5>Dental Health Center</h5>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"  aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+
+  </button>
+  <div class="collapse navbar-collapse" id="topNav" style="margin-left: 500px;">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+
+
+ <a href="index.html" class="nav-link"> <i class="fas fa-home fa-inverse"> </i> Home </a>
+</li>
+  <li class="nav-item">
+ <a href="About.html" class="nav-link"> <i class="fas fa-user fa-inverse"> </i>About </a>
+</li>
+  <li class="nav-item">
+ <a href="services.html" class="nav-link"> <i class="fas fa-phone fa-inverse"> </i> Services </a>
+</li>
+  <li class="nav-item">
+ <a href="gallery.html" class="nav-link"> <i class="fas fa-book fa-inverse"> </i> Gallery </a>
+</li>
+ <li class="nav-item">
+ <a href="contact.html" class="nav-link"> <i class="fas fa-book fa-inverse"> </i> Contact </a>
+</li>
+<li class="nav-item">
+ <a href="wireframe.html" class="nav-link"> <i class="fas fa-book fa-inverse"> </i> Wireframes </a>
+</li>
+</ul>
+
+
+
+
+</div>
+</nav>
+</div>
+</div>
+
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+</div>
+ <div class="container">
+   
+   <div class="row">
+                        
+                        <div class="col-xl-6 col-sm-6"><h3>About Us</h3>
+                            <p>
+
+                   People's Dental College Hospital is an autonomous college and is proud to be the first dental college in Nepal under the jurisdiction of Nepal Medical Council and registered with the Ministry of Education,Government of Nepal. It functions independentlly under the affiliation of Tribhuvan University, the first and the oldest university of Nepal.People's Dental College and Hospital was founded in 1997 with the objective of making available up-to-date training facilities to become qualified dental professional and to help meet the country's growing health care requirements.<span id="dots">...</span><span id="more">
+Situated in the heart of Kathmandu,People's Dental College and Hospital comprises two massive buildings for clinical,academic and administrative pursuits.
+At this institute,each Department is an efficiently planned, organized and independent unit.Every Department has all the infrastructural facilities, equipments and manpower to ensure optimum efficiency.Needless to say faculty members are outstanding academicians whose professional acumen is a driving force and inspiration to every students.</span></p>
+
+                            <button onclick="myFunction()" id="myBtn">Read More</button>
+                            <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+                            
+                        </div>
+                        <div class="col-xl-6 col-sm-6"><img src="canal.jpg" alt="My Thums"  class="img-fluid img-thumbnail"/>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+                    <hr>
+                  <div class="header" style="text-align: center;">
+<h3>Our Doctors</h3>
+</div>
+<div class="row">
+
+  <div class="col-xl-3"> <img src="doctor1.jpg" class="card-img-top img-fluid img-thumbnail" alt="Doctors">
+    <h5>Rita Shrestha</h5>
+    <p>ORTHODONTIST</p>
+    </div>
+
+<div class="col-xl-3"> <img src="doctor2.jpg" class="card-img-top img-fluid img-thumbnail" alt="Doctors">
+  <h5>Apechycha Khanal</h5>
+  <p>ORTHODONTIST</p>
+     </div>
+
+  <div class="col-xl-3"> <img src="doctor3.jpg" class="card-img-top img-fluid img-thumbnail" alt="Doctors">
+    <h5>Gita Sharma</h5>
+    <p>ORTHODONTIST</p>
+</div>
+  
+   <div class="col-xl-3"> <img src="doctor4.jpg" class="card-img-top img-fluid img-thumbnail" alt="Doctors">
+    <h5>Rashi Pradhan</h5>
+    <p>ORTHODONTIST</p>
+  </div>
+</div>
+
+
+ 
+</body>
+</html>
